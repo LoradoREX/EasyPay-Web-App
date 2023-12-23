@@ -1,0 +1,131 @@
+body {
+    background: #F6EEFF;
+    display: flex;
+}
+
+
+.conteiner {
+    width: 550px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin-bottom: 60px;
+    font-family: sans-serif;
+}
+
+.signUp {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    color: #150D0D;
+}
+
+input {
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid rgba(102, 102, 102, 0.60);
+    margin-bottom: 30px;
+    padding: 0px 30px;
+}
+
+button {
+    height: 50px;
+    width: 400px;
+    margin: 0px auto 20px;
+    border-radius: 50px;
+    background: #60269E;
+    color: #F0FAF2;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+}
+
+p {
+    color: #676767;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #60269E;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+}
+
+.orContinueWith {
+    margin: 50px auto;
+    color: #676767;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px;
+}
+
+li a {
+    padding: 13px 48px;
+}
+
+.bannerLateral {
+    width: 50%;
+    height: 100vh;
+}
+
+/* responsividade */
+
+@media screen and (max-width: 1600px){
+    .bannerLateral {
+        display: none;
+    }
+
+    body {
+        height: 100vh;
+        background: rgb(246,238,255);
+        background: linear-gradient(128deg, rgba(246,238,255,1) 38%, rgba(233,214,255,1) 76%);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background: rgb(246,238,255);
+    }
+
+    .conteiner {
+        align-items: center;
+    }
+    
+    li {
+        margin: 15px auto;
+    }
+
+    label {
+        margin: 7px auto;
+    }
+
+    input, button {
+        width: 350px;
+    }
+
+    
+}

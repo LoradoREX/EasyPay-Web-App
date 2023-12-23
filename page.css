@@ -1,0 +1,514 @@
+.espacamentoLateralPadrao {
+    margin: 0 150px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fontePadrao {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* NAVEGAÇÃO SUPERIOR CONTENDO OS BOTÃO */
+
+header {
+    background: linear-gradient(169deg, rgba(96, 38, 158, 0.05) -6.01%, rgba(3, 207, 252, 0.05) 36.87%, rgba(185, 119, 255, 0.05) 78.04%, rgba(101, 8, 201, 0.05) 103.77%);
+      
+}
+
+.navegacaoSuperior {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px 148px 0px;
+    height: 80px;
+}
+
+.navegacaoSuperiorConteudoAEsquerda,
+.navegacaoSuperiorConteudoADireita {
+    display: flex;
+    align-items: center;
+}
+
+.navegacaoSuperiorConteudoAEsquerda {
+    justify-content: flex-start;
+}
+
+.navegacaoSuperiorConteudoAEsquerda h1 {
+    margin-right: 100px;
+}
+
+.navegacaoSuperiorConteudoADireita {
+    justify-content: flex-end;
+}
+
+.logoEasypay h1 {
+    color: #60269E;
+    font-size: 24px;
+}
+
+.botaoBusiness p {
+    color: #222;
+}
+
+.botaoSignUp p {
+    margin-right: 30px;
+    color: #60269E;
+}
+
+.botaoLogin {
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 30px;
+    background-color: #60269E;
+    border-radius: 50px;
+}
+
+/* PRIMEIRO QUADRO DO SITE , APRESENTAÇÃO INICIAL DEPOIS DA NAVEGAÇÃO */
+
+.apresentacaoInicial {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 752px;
+}
+
+.apresentacaoInicialConteudo {
+    width: 672px;
+}
+
+.apresentacaoInicialConteudo h2 {
+    color: #222;
+    font-size: 68px;
+    margin-bottom: 20px;
+}
+
+.apresentacaoInicialConteudo > h2 > span {
+    background: linear-gradient(98deg, #60269E 1.96%, #03CFFC 36.81%, #B977FF 77.81%, #6508C9 100.36%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+}
+
+.apresentacaoInicialConteudo p {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.apresentacaoInicialConteudo a {
+    color: #fff;
+    font-size: 18px;
+}
+
+.apresentacaoInicialConteudoBotoes {
+    display: flex;
+    align-items: center;
+}
+
+.getStarted {
+    background: linear-gradient(#B977FF, #60269E);
+    padding: 20px 50px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+.joinOurCommunity {
+    padding: 15px 30px;
+    border: 1px solid #60269E;
+    border-radius: 50px;
+}
+
+.joinOurCommunity span {
+    font-size: 18px;
+    background-clip: text;
+    background: linear-gradient(#B977FF, #60269E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* CARTOES */
+
+.sessaoDosCards {
+    background: rgba(246, 238, 255, 70%);
+    height: 649px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 50px 86.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card img {
+    width: 100px;
+    height: 120px;
+    margin-bottom: 30px;
+}
+
+.card h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #60269E;
+}
+
+.card p {
+    color: #676767;
+    font-size: 18px;
+}
+
+.card02 {
+    border: 1px solid rgb(0, 0, 0, 10%);
+}
+
+/* SESSÃO DO CELULAR PARTE DIREITA*/
+
+.sessaoDoCelular {
+    background: rgba(246, 238, 255, 70%);
+    padding-bottom: 146px;
+}
+
+.sessaoDoCelular > div {
+    display: flex;
+    align-items: center;
+}
+
+.sessaoDoCelularTexto {
+    margin-left: 180px;
+}
+
+.sessaoDoCelularTexto h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+.sessaoDoCelularTexto p {
+    font-size: 18px;
+    line-height: 174.688%;
+    margin-bottom: 50px;
+}
+
+.sessaoDoCelularTexto a {
+    padding: 15px 30px;
+    color: #fff;
+    border-radius: 50px;
+    background: linear-gradient(95deg, #B977FF -11.97%, #60269E 105%);
+}
+
+/* SESSÃO DO CELULAR PARTE ESQUERDA*/
+
+.sessaoDoCelularCelular {
+    position: relative;
+}
+
+.telaDoCelular {
+    position: absolute;
+    top: 20px;
+    left: 22px;
+}
+
+/* SESSÃO DO CARTÃO COM CELULAR */
+
+.sessaoDoCartao {
+    background: #60269E;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.sessaoDoCartaoTexto h2 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.sessaoDoCartaoTexto > p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 174.688%;
+    margin-bottom: 50px;
+}
+
+.sessaoDoCartaoTexto > div {
+    display: flex;
+}
+
+.sessaoDoCartaoBotao a {
+    margin-right: 12.9px;
+    display: flex;
+    background-color: #fff;
+    padding: 12.9px;
+    border-radius: 6.5px;
+    
+}
+
+.sessaoDoCartaoBotao a img {
+    margin-right: 12.9px;
+    width: 32px;
+    height: 32px;
+}
+
+.sessaoDoCartaoBotao p {
+    color: #000000;
+    font-size: 11.6px;
+}
+
+.sessaoDoCartaoBotao span {
+    font-size: 15.5px;
+    font-weight: 500;
+}
+
+.sessaoDoCartaoCelular {
+    position: relative;
+}
+
+.sessaoDoCartaoCelular > .telaDoCelular {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.sessaoDoCartaoCartao {
+    
+    background-color: #60269E;
+    transform: rotate(-90deg);
+    border: 1px solid #fff;
+    border-radius: 14px;
+    position: relative;
+}
+
+.sessaoDoCartaoCartao svg {
+    transform: rotate(-270deg);
+}
+
+.sessaoDoCartaoCartao > svg {
+    position: absolute;
+}
+
+.sessaoDoCartaoPrimeiroDegrader {
+    bottom: -60px;
+    left: 160px;
+    border-radius: 14px;
+}
+
+.sessaoDoCartaoSegundoDegrader {
+    bottom: -50px;
+    left: 165px;
+    border-radius: 14px;
+}
+
+.sessaoDoCartaoConteudoImpresso {
+    display: flex;
+    justify-content: space-between;
+    width: 498px;
+    height: 279.5px;
+    padding: 28px 27px;
+}
+
+.conteudoImpressoEsquerdo,
+.conteudoImpressoDireito {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.conteudoImpressoDireito {
+    align-items: end;
+}
+
+.sessaoDoCartaoIconDaBandeira {
+    position: relative;
+}
+
+.iconDaBandeira1 {
+    position: absolute;
+    top: 0px;
+    right: 32px;
+}
+
+/* SESSÃO PARA EMPRESAS, QUARTA SESSÃO */
+
+.sessaoParaEmpresas {
+    background: #F6EEFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.sessaoParaEmpresasConteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 308px 0px;
+    padding: 140px 0 50px;
+    border-bottom: 1px solid black;
+}
+
+.sessaoParaEmpresasConteudo h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.sessaoParaEmpresasConteudo h4 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.sessaoParaEmpresasConteudo p {
+    color: #676767;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.sessaoParaEmpresasConteudo a {
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 50px;
+    background: linear-gradient(95deg, #B977FF -11.97%, #60269E 105%);
+}
+
+.sessaoParaEmpresasConteudoEsquerdo {
+    margin-right: 135px;
+}
+
+.sessaoParaEmpresasSobre {
+    margin: 0px 308px 0px;
+    padding: 50px 0 107px;
+}
+
+.sessaoParaEmpresasNewsLetter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 90px 125px;
+}
+
+.sessaoParaEmpresasNewsLetter h3 {
+    font-size: 45px;
+    color: #60269E;
+    margin-bottom: 20px;
+}
+
+.sessaoParaEmpresasNewsLetter p {
+    font-size: 24px;
+    color: #676767;
+    margin-bottom: 20px;
+}
+
+.sessaoParaEmpresasNewsLetter form {
+    position: relative;
+}
+
+.sessaoParaEmpresasNewsLetter form > input {
+    font-size: 24px;
+}
+
+.sessaoParaEmpresasNewsLetter .email {
+    width: 715px;
+    height: 65px;
+    padding: 6px 6px 6px 20px;
+}
+
+.sessaoParaEmpresasNewsLetter .enviar {
+    width: 148px;
+    height: 53px;
+    border-radius: 6px;
+    background: #60269E;
+    color: #fff;
+    padding: 11px 21px;
+    position: absolute;
+    top: 5.5px;
+    right: 5.5px;
+}
+
+.sessaoParaEmpresasVoltarParaOTopo {
+    margin-top: 100px;
+    
+    margin-bottom: 50px;
+}
+
+.sessaoParaEmpresasVoltarParaOTopo a {
+    display: flex;
+    padding: 18px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    align-items: center;
+    justify-content: center;
+    color: rgba(102, 102, 102, 1);
+    border-radius: 12px;
+}
+
+.sessaoParaEmpresasVoltarParaOTopo p {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+/* RODAPER */
+
+.sessaoDoRodaperSuperior {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+}
+
+.sessaoDoRodaperEazypay,
+.sessaoDoRodaperCompany,
+.sessaoDoRodaperHelp,
+.sessaoDoRodaperProduct {
+    display: flex;
+    flex-direction: column;
+}
+
+.sessaoDoRodaperSuperior h4 {
+    margin-bottom: 50px;
+    font-size: 24px;
+    color: #666;
+}
+
+.sessaoDoRodaperSuperior a {
+    margin-bottom: 20px;
+    color: #666;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.sessaoDoRodaperEazypay p {
+    font-size: 24px;
+    color: #666;
+}
+
+.sessaoDoRodaperEazypay h4 {
+    color: #60269E;
+}
+
+.sessaoDoRodaperInferior {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: #666;
+    font-size: 14px;
+}
+
+.sessaoDoRodaperInferior > div {
+    width: 218px;
+    display: flex;
+    justify-content: space-between;
+}
